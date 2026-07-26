@@ -21,7 +21,7 @@ import java.util.List;
 public class EmployeeServiceImpl implements EmployeeService {
 
     private final EmployeeRepository employeeRepository;
-    private ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
     private final String CACHE_NAME = "employees";
 
     @Override

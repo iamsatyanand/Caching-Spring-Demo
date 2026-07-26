@@ -20,10 +20,10 @@ public class Employee {
 
     private String name;
 
-    private Long salary;
+//    private Long salary;
 
-    @ManyToOne
-    private Department department;
+//    @ManyToOne
+//    private Department department;
 
 
 }
